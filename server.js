@@ -8,7 +8,7 @@ var config = {
   database: 'knc9792',
   host:'db.imad.hasura-app.io',
   port:'5432',
-  password:process.env.DB_PASSWORD
+  password:'db-knc9792-90907'
   
 };
 var pool = new Pool(config);
