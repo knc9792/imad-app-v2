@@ -85,7 +85,7 @@ var app = express();
 app.use(morgan('combined'));
 
 
-app.get('/test-db',function(req,res){
+app.get('/testdb',function(req,res){
    pool.query('Select * from dbtest', function(err,result) {
     if (err){
         res.status(500).send(err.toString());
