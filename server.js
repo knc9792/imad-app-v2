@@ -12,36 +12,7 @@ var config = {
   
 };
 var pool = new Pool(config);
-var articles={
-    
-articleOne:{
-    title:"Article-One |Chaitanya",
-    date:" Feb 14th 2017",
-    heading:"ArticleOne",
-    content:` <p>This is article one </p>
-                <p>This is article one </p>
-                <p>This is article one </p>
-                <p>This is article one </p>
-                <p>This is article one </p>`
-                
-},
-articleTwo:{
-    title:"Article-One |Chaitanya",
-    date:" Feb 14th 2017",
-    heading:"ArticleOne",
-    content:` <p>This is second article </p>
-                `
-                
-},
-articleThree:{
-    title:"Article-One |Chaitanya",
-    date:" Feb 14th 2017",
-    heading:"ArticleOne",
-    content:` <p>This is article three </p>
-                `
-                
-}
-};
+
 function createTemplate(data){
     
     var title = data.title;
